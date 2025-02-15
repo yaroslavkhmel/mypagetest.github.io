@@ -23,7 +23,7 @@
             e.preventDefault();
         }, false);
         
-        document.addEventListener("keydown", function (e) {
+        window.addEventListener("keydown", function (e) {
             // "I" key
             if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
                 disabledEvent(e);
